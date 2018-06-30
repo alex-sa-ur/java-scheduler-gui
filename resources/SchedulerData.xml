@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:root 
+	xmlns:p="http://www.miami.edu/cis324/xml/scheduling" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.miami.edu/cis324/xml/scheduling scheduling.xsd ">
+	
+  <p:doctor doctorId="1" active= "true">
+    <p:name>
+      <p:firstName>John</p:firstName>
+      <p:lastName>Smith</p:lastName>
+    </p:name>
+    <p:data>
+      <p:dob>1941-06-03</p:dob>
+      <p:SSN>445-25-3382</p:SSN>
+    </p:data>
+    <p:specialty>GENERAL_MEDICINE</p:specialty>
+  </p:doctor>
+  
+  <p:doctor doctorId="2" active= "true">
+    <p:name>
+      <p:firstName>Jane</p:firstName>
+      <p:lastName>Doe</p:lastName>
+    </p:name>
+    <p:data>
+      <p:dob>1950-10-10</p:dob>
+      <p:SSN>582-10-9983</p:SSN>
+    </p:data>
+    <p:specialty>PEDIATRICS</p:specialty>
+  </p:doctor>
+  
+  <p:doctor doctorId="3" active= "true">
+    <p:name>
+      <p:firstName>Mary</p:firstName>
+      <p:lastName>Jones</p:lastName>
+    </p:name>
+    <p:data>
+      <p:dob>1965-12-25</p:dob>
+      <p:SSN>180-38-0038</p:SSN>
+    </p:data>
+    <p:specialty>GENERAL_MEDICINE</p:specialty>
+  </p:doctor>
+  
+  <p:doctor doctorId="4" active= "true">
+    <p:name>
+      <p:firstName>Beth</p:firstName>
+      <p:lastName>Garcia</p:lastName>
+    </p:name>
+    <p:data>
+      <p:dob>1964-07-19</p:dob>
+      <p:SSN>343-34-9875</p:SSN>
+    </p:data>
+    <p:specialty>ONCOLOGY</p:specialty>
+  </p:doctor>
+  
+  <p:patient patientId="1" active= "true">
+    <p:name>
+      <p:firstName>John</p:firstName>
+      <p:lastName>Lennon</p:lastName>
+    </p:name>
+    <p:data>
+      <p:dob>1951-05-01</p:dob>
+      <p:SSN>123-45-6789</p:SSN>
+    </p:data>
+  </p:patient>
+  
+  <p:patient patientId="2" active= "true">
+    <p:name>
+      <p:firstName>Paul</p:firstName>
+      <p:lastName>McCartney</p:lastName>
+    </p:name>
+    <p:data>
+      <p:dob>1964-06-23</p:dob>
+      <p:SSN>333-22-1123</p:SSN>
+    </p:data>
+  </p:patient>
+  
+  <p:patient patientId="3" active= "true">
+    <p:name>
+      <p:firstName>George</p:firstName>
+      <p:lastName>Harrison</p:lastName>
+    </p:name>
+    <p:data>
+      <p:dob>1955-09-05</p:dob>
+      <p:SSN>567-39-9282</p:SSN>
+    </p:data>
+  </p:patient>
+  
+  <p:patient patientId="4" active= "true">
+    <p:name>
+      <p:firstName>Ringo</p:firstName>
+      <p:lastName>Starr</p:lastName>
+    </p:name>
+    <p:data>
+      <p:dob>2001-02-28</p:dob>
+      <p:SSN>888-88-8888</p:SSN>
+    </p:data>
+  </p:patient>
+  
+  <p:visit doctorId="1" patientId="1" visitDate="2018-05-11"/>
+  <p:visit doctorId="1" patientId="1" visitDate="2018-05-12"/>
+  <p:visit doctorId="2" patientId="4" visitDate="2018-05-14"/>
+  <p:visit doctorId="3" patientId="2" visitDate="2018-05-09"/>
+  <p:visit doctorId="4" patientId="3" visitDate="2018-05-09"/>
+  <p:visit doctorId="1" patientId="4" visitDate="2018-05-13"/>
+  <p:visit doctorId="2" patientId="3" visitDate="2018-05-13"/>
+</p:root>
